@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+
+html {
+  line-height: 1.15;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(
+    190deg,
+    rgb(134, 123, 205) 0%,
+    rgb(106, 90, 171) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  color: #d1c7d4;
+  text-shadow: 0 0 5px rgb(91, 78, 141), 3px -1px 5px rgb(83, 76, 110);
+}
+
+.font-custom {
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Table */
+.table {
+  border-radius: 10px;
+}
+
+th[scope='col']{
+  background-color: rgb(91, 78, 141) !important;
+  color: white;
+  letter-spacing: .2rem;
+}
+
+tr:nth-child(even) {
+  background-color: #d1c7d4 !important;
+}
+
+.tbody-font {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 500;
+}
+
+.thead-font {
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+/* Background */
+.bg {
+  background-color: rgb(78, 78, 78);
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.bg-light {
+  background-color: rgb(224, 224, 224);
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+td {
+  text-transform: none;
+}
