@@ -1,3 +1,20 @@
+Objective
+-------------------
+In this checkpoint,we are going to consume an API that provides us with list of users. Just follow the instructions:
+
+Instructions
+--------------------
+    1.	Create a project using create-react-app.
+    2.	Create UserList.js file in src folder
+    3.	Install axios.
+    4.	You gone to use jsonplaceholder API to get list of user 
+    5.	Use axios to Get data from Link inside useEffect hooks
+    6.	Use UseState hooks to save data into listOfUSer state 
+    7.	Map listOfUser to display list of user into screen 
+    8.	Style your App as you wish
+
+
+---------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
